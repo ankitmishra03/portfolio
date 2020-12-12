@@ -1,3 +1,10 @@
+$(function() {
+$(window).on("load", function() {
+  $('#loading').fadeOut('slow', function() {
+    $(this).remove();
+  });
+});
+});
 $(document).ready(function(){
     $(window).scroll(function(){
         // sticky navbar on scroll script
