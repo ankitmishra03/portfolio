@@ -52,7 +52,12 @@ $(document).ready(function(){
         backSpeed: 60,
         loop: true
     });
-
+    var typed = new Typed(".typingg", {
+             strings: ["Coder", "Developer", "Student", "Learner"],
+             typeSpeed: 100,
+             backSpeed: 60,
+             loop: true
+         });
 
 
     // owl carousel script
